@@ -68,12 +68,12 @@ namespace RCS_Day6
             int robeza = Convert.ToInt16(Console.ReadLine());
             
             string restite = "";
-           //////////////// int length = GalaInput.Length;
+           
             for (int i = 0; i < robeza ; i++)
             {
                 restite = restite + "#";
             }
-            // Console.WriteLine(length);
+            
 
             Console.WriteLine(restite);
 
@@ -86,12 +86,12 @@ namespace RCS_Day6
             int robeza = virkne.Length;
 
             string restite = "";
-            //////////////// int length = GalaInput.Length;
+            
             for (int i = 0; i < robeza; i++)
             {
                 restite = restite + "#";
             }
-            // Console.WriteLine(length);
+            
 
             Console.WriteLine(restite);
 
