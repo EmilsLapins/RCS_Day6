@@ -92,7 +92,6 @@ namespace RCS_Day6
                 restite = restite + "#";
             }
             
-
             Console.WriteLine(restite);
 
         }

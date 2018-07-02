@@ -12,8 +12,8 @@ namespace RCS_Day6
         public void Izvade()
         {
             Console.WriteLine("Ludzu ievadiet skaitli");
-            string Skaitlis = Console.ReadLine();
-            int Skaitlis1 = Convert.ToInt16(Skaitlis);
+            
+            int Skaitlis1 = (Convert.ToInt16(Console.ReadLine()));
 
             string rezultats = Sharp(Skaitlis1);
             Console.WriteLine("Funkcija izdod: {0} ", rezultats);
