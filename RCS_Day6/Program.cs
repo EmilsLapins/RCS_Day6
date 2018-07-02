@@ -18,7 +18,15 @@ namespace RCS_Day6
 
             // Task 2 Cikli
             Cikli cikls1 = new Cikli();
-            cikls1.Piemers();
+            // cikls1.Piemers();
+
+            // Task 3 Faktorialis
+            //cikls1.Faktorialis();
+
+            //Task 4
+            cikls1.Reste();
+
+
 
 
 
