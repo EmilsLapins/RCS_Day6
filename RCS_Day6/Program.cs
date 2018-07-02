@@ -11,8 +11,7 @@ namespace RCS_Day6
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-
-
+            
             //izsaukt funkciju no otras klases
             Repeat atkartot = new Repeat();
             atkartot.Izvade();

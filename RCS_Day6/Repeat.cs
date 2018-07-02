@@ -17,7 +17,6 @@ namespace RCS_Day6
 
             string rezultats = Sharp(Skaitlis1);
             Console.WriteLine("Funkcija izdod: {0} ", rezultats);
-
             
             //Izvadit vai nu # vai ## atkariba no lietotaja ievades. Cilvekam jaievada vesels
             //skaitlis un jaizsauc funkcija Sharp(SEIT LIEKAM SKAITLISKU VERTIBU);
@@ -25,12 +24,11 @@ namespace RCS_Day6
 
         private string Sharp(int a)
         {
-
-
+            
             string result;
-            int skaitlisA = a;
+            
 
-            if (skaitlisA > 5)
+            if (a > 5)
             {
                 //Console.WriteLine("##");
                  result = "##";
@@ -40,7 +38,6 @@ namespace RCS_Day6
                // Console.WriteLine("#");
                  result = "#";
             }
-
             
             //TODO ja int a lielaks par 5, tad atgriezt ##, ja ne, tad #
             return result;
