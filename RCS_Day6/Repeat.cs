@@ -27,7 +27,7 @@ namespace RCS_Day6
         {
 
 
-            string result = " ";
+            string result;
             int skaitlisA = a;
 
             if (skaitlisA > 5)
