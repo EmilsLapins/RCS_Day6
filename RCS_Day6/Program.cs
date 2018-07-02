@@ -12,9 +12,15 @@ namespace RCS_Day6
         {
             Console.ForegroundColor = ConsoleColor.Green;
             
-            //izsaukt funkciju no otras klases
+            // Task 1 izsaukt funkciju no otras klases
             Repeat atkartot = new Repeat();
-            atkartot.Izvade();
+           // atkartot.Izvade();
+
+            // Task 2 Cikli
+            Cikli cikls1 = new Cikli();
+            cikls1.Piemers();
+
+
 
             Console.ReadLine();
         }
