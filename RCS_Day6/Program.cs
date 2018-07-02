@@ -24,7 +24,8 @@ namespace RCS_Day6
             //cikls1.Faktorialis();
 
             //Task 4
-            cikls1.Reste();
+           ///cikls1.Reste();
+            cikls1.Reste2();
 
 
 

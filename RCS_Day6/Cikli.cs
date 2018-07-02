@@ -78,5 +78,25 @@ namespace RCS_Day6
             Console.WriteLine(restite);
 
         }
+        public void Reste2() // Parversam ievadito virkni par "#"
+        {
+            Console.WriteLine("Ievadiet burtu virkni: ");
+
+            string virkne = Console.ReadLine();
+            int robeza = virkne.Length;
+
+            string restite = "";
+            //////////////// int length = GalaInput.Length;
+            for (int i = 0; i < robeza; i++)
+            {
+                restite = restite + "#";
+            }
+            // Console.WriteLine(length);
+
+            Console.WriteLine(restite);
+
+        }
+
+
     }
 }
