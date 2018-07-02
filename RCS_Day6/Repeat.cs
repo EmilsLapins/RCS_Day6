@@ -24,9 +24,7 @@ namespace RCS_Day6
 
         private string Sharp(int a)
         {
-            
             string result;
-            
 
             if (a > 5)
             {
