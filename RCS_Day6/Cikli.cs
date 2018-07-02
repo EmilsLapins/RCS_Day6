@@ -49,7 +49,7 @@ namespace RCS_Day6
             int summa = 0;
 
            for (int i = 0; i < robeza + 1; i++)
-           // for (int i = 1; i <= robeza; i++) //var ari sadi
+            //for (int i = 1; i <= robeza; i++) //var ari sadi
 
 
             {
